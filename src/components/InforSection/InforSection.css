@@ -1,0 +1,29 @@
+.infor-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px;
+  background-color: white;
+  color: black;
+}
+
+.infor-section::after {
+  content: "";
+  background-color: var(--corBtn-primary);
+  border-radius: 20px;
+  width: 25%;
+  max-width: 120px;
+  height: 5px;
+  position: relative;
+  top: auto;
+  bottom: 0;
+}
+
+.infor-section h2 {
+  font-size: xxx-large;
+}
+.infor-section p {
+  color: var(--cor-textApagado);
+  font-size: larger;
+  padding: 10px;
+}

@@ -1,0 +1,11 @@
+.btn {
+  padding: 20px 35px;
+  cursor: pointer;
+  border-radius: 10px;
+  border: none;
+  color: white;
+}
+
+#BtnHero:hover {
+  background-color: rgba(53, 68, 96, 0.247);
+}
