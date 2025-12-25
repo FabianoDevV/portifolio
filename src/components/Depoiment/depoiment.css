@@ -1,0 +1,37 @@
+.card-depoiment {
+  display: flex;
+  flex-direction: column;
+  width: 360px;
+}
+
+.card-depoiment .icons-depoiment {
+  display: contents;
+}
+
+.card-depoiment .icons-depoiment svg {
+  width: 30px;
+  height: 30px;
+  fill: var(--corBtn-hover);
+  margin: 10px 0;
+}
+
+.card-depoiment .icons-depoiment span svg {
+  fill: #ffcb0c;
+  stroke: #ffcb0c;
+  width: 20px;
+  height: 20px;
+  box-sizing: content-box;
+}
+
+.card-depoiment .quote p {
+  color: var(--cor-textApagado);
+  padding: 0 10px 10px 0;
+  font-size: larger;
+}
+
+.card-depoiment .author h3 {
+  font-size: larger;
+}
+.card-depoiment .author p {
+  color: var(--cor-textApagado);
+}

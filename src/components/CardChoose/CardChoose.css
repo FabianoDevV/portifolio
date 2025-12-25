@@ -1,0 +1,25 @@
+.card-escolher {
+  width: 100%;
+  max-width: 300px;
+  text-align: center;
+}
+
+.card-escolher span svg {
+  box-sizing: content-box;
+  background-color: #0060d138;
+  margin: 10px;
+  padding: 15px;
+  border-radius: 10px;
+  stroke: var(--corBtn-primary);
+}
+
+.card-escolher h3 {
+  font-size: larger;
+  margin: 5px;
+}
+
+.card-escolher p {
+  color: #d1d0cfcc;
+  line-height: 1.5;
+  padding-top: 5px;
+}

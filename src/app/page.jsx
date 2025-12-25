@@ -4,6 +4,10 @@ import { FaBullseye, FaChartLine } from "react-icons/fa";
 import InforSection from "@/components/InforSection/page";
 import Cards from "@/components/Cards/page";
 import CardProject from "@/components/CardProject/page";
+import CardChoose from "@/components/CardChoose/page";
+import Orcament from "@/components/orcamentSection/page";
+import Depoiment from "@/components/Depoiment/page";
+import Stack from "@/components/Stack/page";
 
 export default function Home() {
   const btnColor = {
@@ -53,42 +57,50 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="solution">
-        <div className="content-solution">
+      <section className="about">
+        <div className="content-about">
           <div className="inforSect">
-            <h2>
-              Sites que{" "}
-              <span className="emphasis-text">
-                convertem visitantes em clientes
-              </span>
-            </h2>
+            <p>Sobre mim</p>
           </div>
 
-          <div className="CardSection">
-            <div className="card-foco-area">
-              <span className="svg-area">
-                <FaBullseye />
-              </span>
-              <h3>O problema que resolvo</h3>
-              <p>
-                Muitos profissionais liberais e negócios locais perdem clientes
-                porque seus sites não transmitem profissionalismo ou não
-                facilitam o contato. Eu crio landing pages que destacam seus
-                serviços e transformam visitantes em leads qualificados.
-              </p>
+          <div className="about-content">
+            <div className="stack-about">
+              <div className="title-stack">
+                <h3>Tecnologias que Domino</h3>
+              </div>
+              <div className="stack">
+                <Stack />
+              </div>
             </div>
-
-            <div className="card-foco-area">
-              <span className="svg-area1">
-                <FaChartLine />
-              </span>
-              <h3>Meu diferencial</h3>
+            <div className="about-me">
+              <h2>
+                Desenvolvedor focado em{" "}
+                <span className="emphasis-text">resultados reais</span>
+              </h2>
               <p>
-                Não basta ter um site bonito. Cada elemento é pensado
-                estrategicamente para gerar ação: botões de WhatsApp em
-                destaque, formulários simples, design responsivo e carregamento
-                rápido. Tudo para maximizar suas conversões.
+                Atuo como desenvolvedor front-end na criação de{" "}
+                <span className="destaq-text">
+                  landing pages e sites institucionais
+                </span>{" "}
+                com foco em usabilidade, performance e conversão.
               </p>
+              <p>
+                Desenvolvo interfaces{" "}
+                <span className="destaq-text">
+                  eficientes, responsivas e orientadas à experiência do usuário
+                </span>
+                , transformando visitas em resultados concretos.
+              </p>
+              <span className="obs-about">
+                <em>
+                  &ldquo;Cada projeto é desenvolvido pensando em três pilares:{" "}
+                  <span className="destaq-text">
+                    design profissional, velocidade de carregamento e facilidade
+                    de contato
+                  </span>{" "}
+                  para seus clientes.&rdquo;
+                </em>
+              </span>
             </div>
           </div>
         </div>
@@ -115,6 +127,35 @@ export default function Home() {
           <CardProject />
         </div>
       </section>
+
+      <section className="choose">
+        <div className="escolher">
+          <InforSection
+            title="Por que me escolher?"
+            descript="Trabalho focado em entregar valor e resultados concretos para o seu negócio"
+          />
+
+          <div className="cardChoose">
+            <CardChoose />
+          </div>
+        </div>
+      </section>
+      <article>
+        <InforSection
+          title="O que dizem meus clientes"
+          descript="Depoimentos reais de profissionais que aumentaram suas vendas"
+        />
+        <div className="depoiments">
+          <Depoiment />
+        </div>
+      </article>
+
+      <section className="section-orcament">
+        <Orcament />
+      </section>
+      <footer>
+        © 2025 Fabiano Soares - Developer. Todos os direitos reservados.
+      </footer>
     </main>
   );
 }
