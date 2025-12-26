@@ -87,9 +87,6 @@ export default function Home() {
 
           <div className="about-content">
             <div className="stack-about">
-              <div className="title-stack">
-                <h3>Tecnologias que Domino</h3>
-              </div>
               <div className="stack">
                 <Stack />
               </div>

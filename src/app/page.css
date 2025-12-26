@@ -229,41 +229,37 @@ body {
 }
 
 .about-content .stack-about {
+  background: linear-gradient(215deg, #155dfca6, #17171700);
+  border-radius: 10px;
   width: 90%;
   max-width: 420px;
-  color: white;
-  border-radius: 10px;
   position: relative;
   overflow: hidden;
-
-  /* APENAS a cor */
-  background: linear-gradient(324deg, #1338f3eb, #000);
 }
 
-.about-content .stack-about::before {
+.about-content .stack-about:before {
   content: "";
-  position: absolute;
-  inset: 0;
   pointer-events: none;
-
   background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23ffffff' fill-opacity='0.06' fill-rule='evenodd'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/svg%3E");
 
   background-repeat: repeat;
   background-size: 40px 40px;
+  position: absolute;
+  inset: 0;
 }
 
 .about-content .stack-about .title-stack {
-  padding: 30px 0 7px;
+  padding: 30px 0;
   text-align: center;
 }
 
 .about-content .stack {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
   gap: 10px;
-  padding: 30px 10px;
+  padding: 20px;
+  display: flex;
 }
 
 .about-content .stack .card-stack {
@@ -364,7 +360,7 @@ body {
 }
 
 .choose .escolher {
-  height: 60vh;
+  width: 100%;
 }
 
 .choose .infor-section {
@@ -386,7 +382,7 @@ body {
   align-items: center;
   justify-content: center;
   gap: 25px;
-  padding: 30px 0;
+  padding: 0 0 50px;
 }
 
 /* depoimentos */
@@ -502,6 +498,10 @@ footer {
   .valid-hero .section-valid .descri-statist {
     text-align: center;
     font-size: small;
+  }
+
+  .content-about {
+    padding: 30px;
   }
 
   .about-content .stack .card-stack {
