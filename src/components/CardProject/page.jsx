@@ -38,7 +38,7 @@ export default function CardProject() {
             })}
           </div>
           <div className="btn-project">
-            <a href={repo}>
+            <a href={"https://" + repo} target="_blank">
               <button>Acessar projeto</button>
             </a>
           </div>

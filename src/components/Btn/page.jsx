@@ -1,9 +1,13 @@
 import "./Btn.css";
 
-export default function Btn({ text, color, id }) {
+export default function Btn(props) {
+  const { text, color, id } = props;
   return (
-    <button id={id} style={color} className="btn">
-      {text}
-    </button>
+    <div className="btn-herocard" style={color}>
+      <button id={id} className="btn">
+        {text}
+        {props.children}
+      </button>
+    </div>
   );
 }

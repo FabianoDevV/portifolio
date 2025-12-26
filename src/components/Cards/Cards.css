@@ -4,6 +4,7 @@
   padding: 30px;
   border: 1px solid var(--corBtn-hover);
   border-radius: 10px;
+  will-change: transform;
   transition: var(--hovers-suave);
   -webkit-transition: var(--hovers-suave);
   -moz-transition: var(--hovers-suave);
@@ -12,11 +13,11 @@
 }
 
 .card:hover {
-  transform: scale(1.1);
-  -webkit-transform: scale(1.1);
-  -moz-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  -o-transform: scale(1.1);
+  transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  -o-transform: scale(1.05);
 }
 
 .card span svg {

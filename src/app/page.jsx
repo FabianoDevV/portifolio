@@ -8,13 +8,14 @@ import CardChoose from "@/components/CardChoose/page";
 import Orcament from "@/components/orcamentSection/page";
 import Depoiment from "@/components/Depoiment/page";
 import Stack from "@/components/Stack/page";
+import { FaArrowRight } from "react-icons/fa";
 
 // ✅ Metadata para SEO
 export const metadata = {
   title:
-    "Desenvolvimento Front-End e Criação de Sites Profissionais | Fabiano Soares",
+    "Fabiano Developer | Desenvolvedor Front-End para Sites e Landing Pages",
   description:
-    "Especialista em desenvolvimento front-end e criação de sites modernos para advogados, profissionais liberais e empresas, com foco em credibilidade, captação de clientes e presença online de alta qualidade.",
+    "Desenvolvedor front-end especializado em HTML, CSS e JavaScript. Crio landing pages, sites institucionais e interfaces modernas com foco em performance, UX e resultados.",
 };
 
 export default function Home() {
@@ -46,8 +47,17 @@ export default function Home() {
             </div>
 
             <div className="btns-hero">
-              <Btn text="Solicitar orçamento" />
-              <Btn color={btnColor} text="Ver projetos" id="BtnHero" />
+              <a
+                href="https://wa.me/5564999056219?text=Vim%20pelo%20seu%20portf%C3%B3lio%2C%20quero%20fazer%20um%20or%C3%A7amento%20ou%20tirar%20d%C3%BAvidas."
+                target="_blank"
+              >
+                <Btn text="Solicitar orçamento">
+                  <FaArrowRight />
+                </Btn>
+              </a>
+              <a href="#section-projects">
+                <Btn color={btnColor} text="Ver projetos" id="BtnHero" />
+              </a>
             </div>
 
             <div className="valid-hero">
@@ -131,7 +141,7 @@ export default function Home() {
       </section>
 
       {/* Projects Section */}
-      <section className="section-projects">
+      <section className="section-projects" id="section-projects">
         <InforSection
           title="Projetos desenvolvidos"
           descript="Veja alguns dos sites que criei e os resultados alcançados"

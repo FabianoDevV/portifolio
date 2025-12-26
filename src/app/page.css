@@ -7,6 +7,10 @@
   --cor-textApagado: #4a5565;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: Arial, Helvetica, sans-serif;
   color: white;
@@ -91,23 +95,39 @@ body {
   margin: 40px auto;
 }
 
-.infor-hero .btns-hero button {
-  padding: 20px 35px;
-  cursor: pointer;
+.infor-hero .btns-hero .btn-herocard {
   border-radius: 10px;
-  border: none;
+  padding: 20px 30px;
+  cursor: pointer;
   background: var(--corBtn-primary);
-  font-size: medium;
   transition: var(--hovers-suave);
   -webkit-transition: var(--hovers-suave);
   -moz-transition: var(--hovers-suave);
   -ms-transition: var(--hovers-suave);
   -o-transition: var(--hovers-suave);
+  will-change: transform;
 }
 
-.infor-hero .btns-hero button:hover {
+.infor-hero .btns-hero button {
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 8px;
+  padding: 0;
+  background: transparent;
+
+  font-size: medium;
+}
+
+.infor-hero .btns-hero .btn-herocard:hover {
   background-color: var(--corBtn-hover);
   color: rgba(255, 255, 255, 0.704);
+  transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  -o-transform: scale(1.05);
 }
 
 .valid-hero {

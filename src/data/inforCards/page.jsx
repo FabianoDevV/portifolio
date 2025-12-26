@@ -49,7 +49,7 @@ export const projects = [
     description:
       "Site institucional desenvolvido para escritórios de advocacia, com design moderno, foco em credibilidade, captação de clientes e apresentação clara dos serviços jurídicos.",
     languages: ["REACT", "NEXT", "CSS"],
-    repo: "https://github.com/FabianoDevV/site-advocacia",
+    repo: "site-advocacia-eight.vercel.app",
   },
 
   {
@@ -60,7 +60,7 @@ export const projects = [
     description:
       "Landing page para restaurante, destacando cardápio, localização e chamadas estratégicas para conversão de clientes, com layout responsivo e visual atrativo.",
     languages: ["HTML", "CSS", "JavaScript"],
-    repo: "https://github.com/FabianoDevV",
+    repo: "lanchonete-hazel-gamma.vercel.app",
   },
 
   {
@@ -71,7 +71,7 @@ export const projects = [
     description:
       "Projeto web voltado ao bem-estar emocional, com foco em mensagens positivas, layout limpo e experiência acolhedora para o usuário.",
     languages: ["HTML", "CSS", "JavaScript"],
-    repo: "https://github.com/FabianoDevV",
+    repo: "pensamentos-delta.vercel.app",
   },
 
   {
@@ -82,7 +82,7 @@ export const projects = [
     description:
       "Aplicação front-end que consome a API do TMDB para exibição de filmes, detalhes, avaliações e interface dinâmica, com foco em usabilidade.",
     languages: ["HTML", "CSS", "JavaScript"],
-    repo: "https://github.com/FabianoDevV",
+    repo: "cine-prime-mu.vercel.app",
   },
 
   {
@@ -93,7 +93,7 @@ export const projects = [
     description:
       "Bloco de notas online desenvolvido para criação, edição e organização de anotações, com interface simples e funcional.",
     languages: ["HTML", "CSS", "JavaScript"],
-    repo: "https://github.com/FabianoDevV",
+    repo: "bloco-de-notas-kappa.vercel.app",
   },
 
   {
@@ -104,7 +104,7 @@ export const projects = [
     description:
       "Aplicação web para cadastro, consulta e gerenciamento de despesas pessoais, com filtros por data, tipo, descrição e valor.",
     languages: ["HTML", "JavaScript", "Bootstrap"],
-    repo: "https://github.com/FabianoDevV",
+    repo: "app-orcamento-pessoal-phi.vercel.app",
   },
 
   {
@@ -115,7 +115,7 @@ export const projects = [
     description:
       "Dashboard moderno que exibe informações climáticas em tempo real, relógio local e interface visual interativa com foco em UI/UX.",
     languages: ["HTML", "CSS", "JavaScript"],
-    repo: "https://github.com/FabianoDevV",
+    repo: "galeria-seven-phi.vercel.app",
   },
 ];
 

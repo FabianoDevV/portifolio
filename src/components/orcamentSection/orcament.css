@@ -95,8 +95,13 @@
   gap: 10px;
 }
 
+.urlWhats-orcament {
+  padding: 8px 0;
+}
+
 .benefit-content .card-whats .actions-whats button {
   padding: 15px;
+  width: 100%;
   border: none;
   background: var(--corBtn-hover);
   color: white;

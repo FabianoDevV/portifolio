@@ -46,10 +46,16 @@ export default function Orcament() {
           </div>
         </div>
         <div className="actions-whats">
-          <button>
-            <FiMessageCircle />
-            Fala no whatsApp
-          </button>
+          <a
+            href="https://wa.me/5564999056219?text=Vim%20pelo%20seu%20portf%C3%B3lio%2C%20quero%20fazer%20um%20or%C3%A7amento%20ou%20tirar%20d%C3%BAvidas."
+            target="_blank"
+            className="urlWhats-orcament"
+          >
+            <button>
+              <FiMessageCircle />
+              Fala no whatsApp
+            </button>
+          </a>
           <span>
             <FiZap />
             Resposta em até 1 hora
