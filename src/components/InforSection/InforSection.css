@@ -27,3 +27,20 @@
   font-size: larger;
   padding: 10px;
 }
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .infor-section {
+    padding: 50px 20px;
+
+    text-align: center;
+  }
+
+  .infor-section h2 {
+    font-size: xx-large;
+  }
+
+  .infor-section p {
+    font-size: medium;
+  }
+}

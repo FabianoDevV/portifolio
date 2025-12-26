@@ -9,3 +9,11 @@
 #BtnHero:hover {
   background-color: rgba(53, 68, 96, 0.247);
 }
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .btn {
+    padding: 15px 25px;
+    font-size: small;
+  }
+}

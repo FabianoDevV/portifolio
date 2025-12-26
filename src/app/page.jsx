@@ -28,7 +28,7 @@ export default function Home() {
       {/* Hero Section */}
       <section className="hero">
         <div className="section-hero">
-          <div className="infor-hero">
+          <div className="infor-hero fade-in">
             <div className="fucos-ti">
               <p>
                 <span> &lt; &gt; </span>Front-end focado em conversão

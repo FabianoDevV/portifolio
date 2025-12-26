@@ -164,3 +164,43 @@
   padding: 0 10px 5px;
   color: var(--cor-textApagado);
 }
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .benefit-content .benefit {
+    max-width: 100%;
+
+    margin: 20px 0;
+  }
+
+  .benefit-content .infor-benefit h2 {
+    font-size: xx-large;
+  }
+
+  .benefit-content .infor-benefit p {
+    font-size: medium;
+  }
+
+  .benefit-content .card-whats {
+    width: 100%;
+
+    margin: 20px 0;
+  }
+
+  .benefit-content .card-whats .infor-whats h3 {
+    font-size: large;
+  }
+
+  .benefit-content .card-whats .infor-whats p {
+    font-size: medium;
+  }
+
+  .benefit-content .card-whats .actions-whats {
+    width: 90%;
+  }
+
+  .benefit-content .card-whats .bonus-whats {
+    flex-direction: column;
+    text-align: center;
+  }
+}

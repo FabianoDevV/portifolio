@@ -73,3 +73,10 @@
 .project .btn-project a button:hover {
   background-color: #002d8d;
 }
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .project {
+    width: 90%;
+  }
+}

@@ -37,3 +37,26 @@
 .card p {
   line-height: 1.5;
 }
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .card {
+    width: 90%;
+    max-width: none;
+    padding: 20px;
+  }
+
+  .card h3 {
+    font-size: medium;
+  }
+
+  .card p {
+    font-size: small;
+  }
+
+  .card span svg {
+    width: 25px;
+    height: 25px;
+    padding: 10px;
+  }
+}

@@ -35,3 +35,19 @@
 .card-depoiment .author p {
   color: var(--cor-textApagado);
 }
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .card-depoiment {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .card-depoiment .quote p {
+    font-size: medium;
+  }
+
+  .card-depoiment .author h3 {
+    font-size: medium;
+  }
+}
