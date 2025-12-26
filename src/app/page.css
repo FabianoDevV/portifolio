@@ -432,9 +432,23 @@ footer {
 
 /* Media Queries para Responsividade */
 
+@media (max-width: 1600px) {
+  .section-hero {
+    height: 100%;
+  }
+
+  .infor-section {
+    height: 80%;
+  }
+}
+
 @media (max-width: 768px) {
   .section-hero {
     height: 100%;
+  }
+
+  .infor-section {
+    height: 80%;
   }
 
   .infor-hero {
