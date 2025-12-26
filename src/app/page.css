@@ -437,8 +437,13 @@ footer {
     height: 100%;
   }
 
+  .infor-hero .intro-hero h1 {
+    font-size: 3.7rem;
+  }
+
   .infor-section {
     height: 80%;
+    justify-content: flex-start;
   }
 }
 
@@ -588,10 +593,18 @@ footer {
 @keyframes fadeIn {
   from {
     opacity: 0;
-    transform: translateY(20px);
+    transform: translateY(10px);
+    -webkit-transform: translateY(10px);
+    -moz-transform: translateY(10px);
+    -ms-transform: translateY(10px);
+    -o-transform: translateY(10px);
   }
   to {
     opacity: 1;
     transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
   }
 }
